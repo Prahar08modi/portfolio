@@ -136,7 +136,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://www.google.com/"
+      url: "https://drive.google.com/file/d/1ZQouEImTs_nEf-L3KDl20zLaT6DKX7nG/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -186,7 +186,7 @@ params:
           enable: true
           content: 'Duration: First month'
         content: |
-          I am currently working on a project that incorporates the usage of Generative AI and RAG to build and manage multiple chatbot applications.
+          I am currently working on AI Chatbot project that incorporates the usage of LLM Agents and RAG concepts to build and manage multiple chatbot applications.
 
       - job: "Project Associate"
         company: "IIT Madras"
