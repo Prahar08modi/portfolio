@@ -1,0 +1,391 @@
+baseURL: "https://praharmodi.com/"
+languageCode: "en-us"
+title: "Prahar Modi"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+googleAnalytics: G-0TENF9FVNR
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  # main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Prahar Modi"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/Brand_Logo1_transparent.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Prahar Modi" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Prahar."
+    subtitle: "Passionate data scientist turning raw data into actionable insights."
+    content: "As a budding data scientist, I explore and analyze data to uncover insights that inform smarter decisions and innovative solutions."
+    image: /images/AI_Generated_passport.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://www.google.com/"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Prahar08modi
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/prahar-modi/
+      customIcons:
+        - icon: /Brand_Logo1_transparent.png
+          url: "https://praharmodi.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I am a graduate student pursuing a Master's in Data Science from the University of Maryland, College Park. I have a strong interest in Entrepreneurship employing technology to solve the major problems of the world. I am currently working as a AI/ML student software engineer at [Department of Information Technology (DIT)](https://it.umd.edu/) at the University of Maryland, College Park. 
+
+      Beyond data science, I find fulfillment in exploring spiritual teachings, navigating scenic hiking trails for adventure, cheering on cricket matches with enthusiasm, and actively seeking opportunities to contribute and support others in meaningful ways.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "Generative AI"
+        - "RAG"
+        - "Deep Learning"
+        - "Sequence Models"
+        - "Tensorflow"
+        - "Langchain"
+
+  # Experience
+  experience:
+    enable: true
+    title: "Experience"
+    items:
+      - job: "AI/ML Student Software Engineer"
+        company: "DIT"
+        companyUrl: "https://it.umd.edu/"
+        date: "Jul 2024 - Present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: true
+          content: 'Duration: First month'
+        content: |
+          I am currently working on a project that incorporates the usage of Generative AI and RAG to build and manage multiple chatbot applications.
+
+      - job: "Project Associate"
+        company: "IIT Madras"
+        companyUrl: "https://www.kaatru.org/"
+        date: "Jun 2022 - Jul 2023"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: true
+          content: 'Duration: 13 Months'
+        content: |
+          Project Kaatru is intended to provide real time Air Quality information using a network of distributed IoT devices, remotely sensed spatiotemporal data and theoretical models.
+
+          - Spearheaded comprehensive IoT device development for air pollution monitoring, integrating 2 additional features, and reducing development time by 2 months through establishing robust systems, and streamlined processes.
+          - Actively collaborated with the software development team to enable seamless integration of IoT data into backend cloud services.
+          - Recognized for outstanding contributions and was chosen to represent the team and the IoT device at the Eco Expo startup exhibition in Chennai.
+
+      - job: "Co-Founder and Embedded Firmware Engineer"
+        company: "Pegasus Automation"
+        companyUrl: "http://www.linkedin.com/company/pegasus-automation"
+        date: "Jan 2020 - Jun 2022"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: "http://www.linkedin.com/company/pegasus-automation"
+        info:
+          enable: true
+          content: 'Duration: 30 Months'
+        content: |
+          Pegasus is an innovative home automation product that strives to revolutionize the way humans interact with their homes and care about their loved ones.
+
+          - Led the firmware team in C and C++ programming for embedded systems, ensuring efficient and reliable device performance consequently gaining problem-solving skills.
+          - Learned Cloud Infrastructure Management and deployment of new features on AWS services like AWS Lambda, AWS IoT Core, Dynamo DB, and API Gateway.
+          - Secured cumulative funding of 1M INR (Indian Currency) through successful investor pitches, and grant applications ensuring sustainable growth and development.
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Science in Data Science"
+        school:
+          name: "University of Maryland, College Park"
+          url: "https://umd.edu/"
+        date: "2023 - 2025 (Expected)"
+        GPA: "4.0 out of 4.0"
+        content: |-
+          **Coursework**
+            - *Probability and Statistics, **Algorithms for Data Science**, Data Representation and Modelling, **Big Data Systems**, Principles of Data Science, Principles of Machine Learning*.
+
+          **Skills**
+            - *Machine Learning, **Deep Learning**, **Python**, Data Visualization, **SQL**, Exploratory Data Analysis, **Natural Language Processing.***
+
+          **Extracurricular activities**
+            - *Participated in **Datathon 2024** (Hackathon organized by **Deloitte**)*
+            - *Participated in **Info Challenge 2024** (Hackathon organized by UMD College of Information Studies)*
+      
+      - title: "B.Tech in Information and Communication Technology"
+        school:
+          name: "Dhirubhai Ambani Institute of Information and Communication Technology"
+          url: "https://www.daiict.ac.in/"
+        date: "2016 - 2020"
+        GPA: "7.25 out of 10.0"
+        content: |-
+          **Coursework**
+            - ***Software Engineering**, Operating Systems, **Database Management System**, Internet of Things, Computer Networks, **Design and Analysis of Algorithms**, **Data structures**, Information Theory, **Groups and Linear Algebra**, **Calculus.***
+
+          **Skills**
+            - *Computer Science, **C**, Python, **Real-Time Operating Systems (RTOS)**, SQL.*
+
+          **Extracurricular activities**
+            - *Secured **first** place in **Ingenious** (Hackathon organized by Ahmedabad University)*
+            - *Secured **top-10** place in **Hack-Infinity** (Hackathon organized by DAIICT)*
+            - *As a **Convener (President)** of **Electronics Hobby Center**, we conducted tech sessions and workshops to make freshers learn buzzing technology
+              in the Electronics domain.*
+            - *Taught elementary subjects like Mathematics and English to primary school students in a village as a part ofs Rural
+              Internship.*
+        
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Deep Learning Specialization
+        content: All 5 courses completed with at least 98% grades in each.
+        url: https://www.credly.com/badges/f413fb01-887a-4f3b-a532-8663e3b1feeb/public_url
+        image: /images/dl_specialization.png
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Distributed Data Processing using Apache Flink
+        content: This project constructs a complex distributed data processing ecosystem using Apache Flink in a Dockerized Python environment.
+        image: /images/projects/flink_logo.jpg
+        featured:
+          name: Code
+          link: https://github.com/kaizen-ai/kaizenflow/tree/SorrTask929_Distributed_data_processing_with_Apache_Flink/sorrentum_sandbox/spring2024/SorrTask929_Distributed_data_processing_with_Apache_Flink/docker
+        badges:
+          - "Docker"
+          - "Pyflink"
+          - "Kafka"
+          - "Elasticsearch"
+          - "Kibana"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:pmodi08@umd.edu
+          - icon: fab fa-github
+            url: https://github.com/kaizen-ai/kaizenflow/tree/SorrTask929_Distributed_data_processing_with_Apache_Flink/sorrentum_sandbox/spring2024/SorrTask929_Distributed_data_processing_with_Apache_Flink/docker
+
+      # - title: Image Converter
+      #   content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      #   image: /images/projects/converter.jpg
+      #   featured:
+      #     name: Demo
+      #     link: https://django-converter.herokuapp.com
+      #   badges:
+      #     - "Django"
+      #     - "Bootstrap"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/converter
+
+      # - title: Hugo Profile V2
+      #   content: A clean and simple Hugo template for personal portfolio and blog.
+      #   image: /images/projects/profile2.jpg
+      #   featured:
+      #     name: Demo V2
+      #     link: https://hugo-profile-2.netlify.app
+      #   badges:
+      #     - "Hugo"
+      #     - "Bootstrap"
+      #     - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:pmodi08@umd.edu
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/Prahar08modi
+      linkedin: https://www.linkedin.com/in/prahar-modi/
+      instagram: https://www.instagram.com/praharmodi/
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
