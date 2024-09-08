@@ -165,7 +165,7 @@ params:
         - "Generative AI"
         - "RAG"
         - "Deep Learning"
-        - "Sequence Models"
+        - "Fine-tuning LLM"
         - "Tensorflow"
         - "Langchain"
 
@@ -175,7 +175,7 @@ params:
     title: "Experience"
     items:
       - job: "AI/ML Student Software Engineer"
-        company: "DIT"
+        company: "DIT/UMCP"
         companyUrl: "https://it.umd.edu/"
         date: "Jul 2024 - Present"
         featuredLink:
@@ -184,9 +184,32 @@ params:
           url: "https://example.com"
         info:
           enable: true
-          content: 'Duration: First month'
+          content: 'Duration: 3 months (Ongoing)'
         content: |
-          I am currently working on AI Chatbot project that incorporates the usage of LLM Agents and RAG concepts to build and manage multiple chatbot applications.
+          The Division of Information Technology at the University of Maryland, College Park, is responsible for supporting and advancing the university’s technology infrastructure. It plays a critical role in enhancing academic, research, and administrative functions through innovative IT solutions.
+
+          - Collaborated with the Enterprise Software Engineering Team to build and manage AI chatbots for university-wide use.
+          - Evaluated academic planner chatbot performance using the RAGAS framework to ensure high-quality responses.
+          - Developed suggested questions for student academic chatbots to enhance user experience and support.
+          - Involved in fine-tuning an LLM for improved communication consistency in official University emails.
+
+      - job: "Data Science Intern/Co-op"
+        company: "CloudLeap Technologies, LLC"
+        companyUrl: "https://cloudleaptech.com"
+        date: "Jul 2024 - Present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: true
+          content: 'Duration: 3 months (Ongoing)'
+        content: |
+          CloudLeap Technologies, LLC is a software development and consulting firm that specializes in providing innovative solutions in Big Data, AI, Machine Learning, and NLP. The company helps clients securely manage and analyze data using advanced cloud-based tools and open-source technologies​.
+
+          - Leading AI Development for FDA Workshop Automation: Currently designing and developing a proof of concept (PoC) project to automate and summarize FDA workshops using advanced AI, ML, NLP, and LLM techniques. This project aims to streamline information processing and reduce the manual effort of generating summaries of FDA Workshops.
+          - Upcoming Projects: Contributing to initiatives under The Opportunity Project (TOP) sponsored by the US Census Bureau and engaging in SBIR projects focused on AI/ML, and Robotic Process Automation (RPA).
+          - Collaborative Environment: Working closely with team members to deliver high-impact solutions and assisting with proposal support.
 
       - job: "Project Associate"
         company: "IIT Madras"
@@ -238,10 +261,10 @@ params:
         GPA: "4.0 out of 4.0"
         content: |-
           **Coursework**
-            - *Probability and Statistics, **Algorithms for Data Science**, Data Representation and Modelling, **Big Data Systems**, Principles of Data Science, Principles of Machine Learning*.
+            - *Probability and Statistics, **Algorithms for Data Science**, Data Representation and Modelling, **Big Data Systems**, Communication for Data Science and Analytics, **Natural Language Processing**, Cloud Computing, Principles of Data Science, Principles of Machine Learning*.
 
           **Skills**
-            - *Machine Learning, **Deep Learning**, **Python**, Data Visualization, **SQL**, Exploratory Data Analysis, **Natural Language Processing.***
+            - *Machine Learning, **Deep Learning**, **Python**, **R**, Data Visualization, **SQL**, Exploratory Data Analysis, **Natural Language Processing.***
 
           **Extracurricular activities**
             - *Participated in **Datathon 2024** (Hackathon organized by **Deloitte**)*
@@ -338,7 +361,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
+    btnName: E-mail me
     btnLink: mailto:pmodi08@umd.edu
     # formspree:
     #   enable: true # `contact.email` value will be ignored
