@@ -136,7 +136,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1ZQouEImTs_nEf-L3KDl20zLaT6DKX7nG/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1OgVRCcGTcszutcB6OssMtmBasowS5evg/view?usp=share_link"
       download: true
       newPage: false
     socialLinks:
@@ -155,7 +155,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a graduate student pursuing a Master's in Data Science from the University of Maryland, College Park. I have a strong interest in Entrepreneurship employing technology to solve the major problems of the world. I am currently working as a AI/ML student software engineer at [Department of Information Technology (DIT)](https://it.umd.edu/) at the University of Maryland, College Park. 
+      I am a graduate student pursuing a Master's in Data Science from the University of Maryland, College Park. I have a strong interest in Entrepreneurship employing technology to solve the major problems of the world. I am currently working part-time as an AI/ML student software engineer at [Department of Information Technology (DIT)](https://it.umd.edu/) at the University of Maryland, College Park. Additionally, I'm assisting [CloudLeap Technologies, LLC](https://cloudleaptech.com) with the creation of detailed summaries of FDA workshops as a part-time Data Science Intern/Co-op.
 
       Beyond data science, I find fulfillment in exploring spiritual teachings, navigating scenic hiking trails for adventure, cheering on cricket matches with enthusiasm, and actively seeking opportunities to contribute and support others in meaningful ways.
     skills:
@@ -175,7 +175,7 @@ params:
     title: "Experience"
     items:
       - job: "AI/ML Student Software Engineer"
-        company: "DIT/UMCP"
+        company: "DIT (UMCP)"
         companyUrl: "https://it.umd.edu/"
         date: "Jul 2024 - Present"
         featuredLink:
@@ -194,7 +194,7 @@ params:
           - Involved in fine-tuning an LLM for improved communication consistency in official University emails.
 
       - job: "Data Science Intern/Co-op"
-        company: "CloudLeap Technologies, LLC"
+        company: "CloudLeap Technologies"
         companyUrl: "https://cloudleaptech.com"
         date: "Jul 2024 - Present"
         featuredLink:
